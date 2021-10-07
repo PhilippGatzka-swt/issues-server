@@ -17,6 +17,11 @@ import java.util.List;
 
 import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
 
+/**
+ * @author gatzka
+ * @version 1.0.0-Snapshot
+ * Project: Issues
+ */
 @Authenticated
 @Path("/tags")
 public class TagController implements IController<Tag> {

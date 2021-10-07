@@ -8,7 +8,11 @@ import javax.inject.Inject;
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
 import java.util.List;
-
+/**
+ * @author gatzka
+ * @version 1.0.0-Snapshot
+ * Project: Issues
+ */
 @ApplicationScoped
 public class UserService implements IService<User> {
 

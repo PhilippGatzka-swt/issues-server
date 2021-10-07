@@ -4,7 +4,12 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.NamedQuery;
 import javax.persistence.Table;
-
+/**
+ * @author gatzka
+ * @version 1.0.0-Snapshot
+ * Project: Issues
+ */
+@SuppressWarnings("unused")
 @Table(name = "user")
 @Entity
 @NamedQuery(name="User.findAll", query = "SELECT u FROM User u")

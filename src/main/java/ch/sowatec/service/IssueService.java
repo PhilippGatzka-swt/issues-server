@@ -7,7 +7,11 @@ import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import javax.persistence.EntityManager;
 import java.util.List;
-
+/**
+ * @author gatzka
+ * @version 1.0.0-Snapshot
+ * Project: Issues
+ */
 @ApplicationScoped
 public class IssueService implements IService<Issue> {
 

@@ -7,7 +7,12 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.NamedQuery;
 import javax.persistence.Table;
-
+/**
+ * @author gatzka
+ * @version 1.0.0-Snapshot
+ * Project: Issues
+ */
+@SuppressWarnings("unused")
 @Table(name = "vote")
 @Entity
 @NamedQuery(name="Vote.findAll", query = "SELECT v FROM Vote v")

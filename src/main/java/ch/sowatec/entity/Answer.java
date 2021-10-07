@@ -11,9 +11,15 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import java.util.List;
 
+/**
+ * @author gatzka
+ * @version 1.0.0-Snapshot
+ * Project: Issues
+ */
+@SuppressWarnings("unused")
 @Table(name = "answer")
 @Entity
-@NamedQuery(name="Answer.findAll", query = "SELECT a FROM Answer a")
+@NamedQuery(name = "Answer.findAll", query = "SELECT a FROM Answer a")
 public class Answer extends AbstractEntity {
     @ManyToOne(cascade = CascadeType.REMOVE)
     @JoinColumn(name = "user_id")

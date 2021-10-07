@@ -7,7 +7,11 @@ import javax.enterprise.context.RequestScoped;
 import java.time.Duration;
 import java.util.Arrays;
 import java.util.HashSet;
-
+/**
+ * @author gatzka
+ * @version 1.0.0-Snapshot
+ * Project: Issues
+ */
 @RequestScoped
 public class AuthenticationService {
 

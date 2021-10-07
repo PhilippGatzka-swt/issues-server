@@ -1,28 +1,33 @@
 package ch.sowatec;
-
+/**
+ * @author gatzka
+ * @version 1.0.0-Snapshot
+ * Project: Issues
+ */
+@SuppressWarnings("unused")
 public class LoginViewModel {
 
-    private String jwtToken;
-    private Long id;
+    private String token;
+    private Long userId;
 
-    public LoginViewModel(String token, Long id) {
-        this.jwtToken = token;
-        this.id = id;
+    public LoginViewModel(String token, Long userId) {
+        this.token = token;
+        this.userId = userId;
     }
 
-    public void setJwtToken(String jwtToken) {
-        this.jwtToken = jwtToken;
+    public String getToken() {
+        return token;
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public void setToken(String token) {
+        this.token = token;
     }
 
-    public String getJwtToken() {
-        return jwtToken;
+    public Long getUserId() {
+        return userId;
     }
 
-    public Long getId() {
-        return id;
+    public void setUserId(Long userId) {
+        this.userId = userId;
     }
 }

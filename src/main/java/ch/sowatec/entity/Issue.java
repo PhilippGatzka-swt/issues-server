@@ -11,7 +11,12 @@ import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 import java.util.List;
-
+/**
+ * @author gatzka
+ * @version 1.0.0-Snapshot
+ * Project: Issues
+ */
+@SuppressWarnings("unused")
 @Table(name = "issue")
 @Entity
 @NamedQuery(name="Issue.findAll", query = "SELECT i FROM Issue i")
